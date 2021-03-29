@@ -1,2 +1,2 @@
 # Credit_Risk_Analysis
-Jupyter notebook files with classification models employing over and under sampling techniques to evaluate credit risk.
+Jupyter notebook files with classification models employing reampling techniques to evaluate credit risk.
