@@ -89,3 +89,16 @@ data set.
         - Low Risk:
             - Precision: 1.00
             - Recall: 0.94
+
+## Summary
+Comparing the six models, we find the easy ensemble adaboost classifier to
+yield the best metrics for classification of high and low risk loan
+applicants. It gave 9% precision for the classification of high risk data,
+meaning 9% of high risk identifications were correct. Further, 92% recall
+implies that 92% of actual high risk applicants were identified as such. Both
+this and the balanced random forest classifier model perform signifcantly
+better than the logistic models with resampling techniques. In the logistic
+case, we do not see significant improvement between the four resampling
+methods, and infact we find that the cluster centroid undersampling worsens
+the logistic model. This is likely due to insufficient training data with the
+now undersampled low risk applicants.
