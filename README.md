@@ -25,9 +25,9 @@ compare the accuracy, precision, and recall of each model.
 
 ## Results
 For each trained model, we generate predictions from our testing data and
-calculate the balanced accuracy score, precisison, and sensitiviy (also known
-as recall) to compare the success of each and form a recommendation to predict
-credit risk from this data set.
+calculate the balanced accuracy score, precisison, and recall to compare the
+success of each and form a recommendation to predict credit risk from this
+data set.
 
 [`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb)
 
@@ -42,11 +42,11 @@ credit risk from this data set.
                 - Precision: 1.00
                 - Recall: 0.61
     - SMOTE Oversampling: [`imblearn.over_sampling.SMOTE`](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
-        - [Balanced Accuracy Score](Images/SMOTE_balanced_acc_score): 0.66
+        - [Balanced Accuracy Score](Images/SMOTE_balanced_acc_score.png): 0.66
         - [Precision/Recall](Images/SMOTE_prec_rec.png):
             - High Risk:
                 - Precision: 0.01
-                - Recall: 0.69
+                - Recall: 0.63
             - Low Risk:
                 - Precision: 1.00
                 - Recall: 0.69
