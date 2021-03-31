@@ -10,7 +10,7 @@ the other features in our data set. We first employ oversampling,
 undersampling, and combination sampling techniques for logistic regression
 models in [`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb).
 Next, we use ensemble learning classification mdels in
-[`credit_risk_ensemple.ipynb`](credit_risk_ensemple.ipynb). Finally, we
+[`credit_risk_ensemple.ipynb`](credit_risk_ensemble.ipynb). Finally, we
 compare the accuracy, precision, and recall of each model.
 
 ### Resources
