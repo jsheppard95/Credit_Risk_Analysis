@@ -1,5 +1,5 @@
 # Credit_Risk_Analysis
-Jupyter notebook files with classification models employing reampling
+Jupyter notebook files with classification models employing resampling
 techniques to evaluate credit risk.
 
 ## Overview of the analysis
@@ -9,7 +9,7 @@ variable `loan_status` with possible values `low_risk` and `high_risk` from
 the other features in our data set. We first employ oversampling,
 undersampling, and combination sampling techniques for logistic regression
 models in [`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb).
-Next, we use ensemble learning classification mdels in
+Next, we use ensemble learning classification models in
 [`credit_risk_ensemple.ipynb`](credit_risk_ensemble.ipynb). Finally, we
 compare the accuracy, precision, and recall of each model.
 
@@ -25,7 +25,7 @@ compare the accuracy, precision, and recall of each model.
 
 ## Results
 For each trained model, we generate predictions from our testing data and
-calculate the balanced accuracy score, precisison, and recall to compare the
+calculate the balanced accuracy score, precision, and recall to compare the
 success of each and form a recommendation to predict credit risk from this
 data set.
 
@@ -96,9 +96,9 @@ yield the best metrics for classification of high and low risk loan
 applicants. It gave 9% precision for the classification of high risk data,
 meaning 9% of high risk identifications were correct. Further, 92% recall
 implies that 92% of actual high risk applicants were identified as such. Both
-this and the balanced random forest classifier model perform signifcantly
+this and the balanced random forest classifier model perform significantly
 better than the logistic models with resampling techniques. In the logistic
 case, we do not see significant improvement between the four resampling
-methods, and infact we find that the cluster centroid undersampling worsens
-the logistic model. This is likely due to insufficient training data with the
-now undersampled low risk applicants.
+methods, and in fact we find that the cluster centroid undersampling method
+worsens the logistic model. This is likely due to insufficient training data
+with the now fewer low risk applicants.
