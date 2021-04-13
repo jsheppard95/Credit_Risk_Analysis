@@ -4,7 +4,7 @@ techniques to evaluate credit risk.
 
 ## Overview of the analysis
 This project includes Jupyter Notebook files for the analysis of credit loan
-data [`LoanStats_2019Q1.csv`](LoanStats_2019Q1.csv) to classify our target
+data [`LoanStats_2019Q1.csv`](Resources/LoanStats_2019Q1.csv) to classify our target
 variable `loan_status` with possible values `low_risk` and `high_risk` from
 the other features in our data set. We first employ oversampling,
 undersampling, and combination sampling techniques for logistic regression
@@ -15,7 +15,7 @@ compare the accuracy, precision, and recall of each model.
 
 ### Resources
 - Data Source:
-    - [`LoanStats_2019Q1.csv`](LoanStats_2019Q1.csv)
+    - [`LoanStats_2019Q1.csv`](Resources/LoanStats_2019Q1.csv)
 - Software:
     - Python 3.7.9
     - NumPy 1.19.2
