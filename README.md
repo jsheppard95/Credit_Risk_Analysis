@@ -102,3 +102,20 @@ case, we do not see significant improvement between the four resampling
 methods, and in fact we find that the cluster centroid undersampling method
 worsens the logistic model. This is likely due to insufficient training data
 with the now fewer low risk applicants.
+
+# Usage
+All code is contained in the Jupyter Notebook files
+[`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb) and
+[`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb). Therefore
+replicating this analysis is accomplished by first cloning the repository
+and installing dependencies into an isolated `conda` environment using
+```
+conda env create -f environment.yml
+```
+One can then open either Jupyter Notebook file and run all cells. In
+`credit_risk_resampling.ipynb`, the classification reports are found at the
+end of each resampling section, as shown for
+[Naive Random Oversampling](Images/oversampling_full_code). Similarly, in
+`credit_risk_ensemble.ipynb`, the classification reports are displayed after
+training and testing each ensemble learning classification for model, as shown
+for the [Easy Ensemble AdaBoost Classifier](Images/eeac_full_code.png). 
