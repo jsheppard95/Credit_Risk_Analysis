@@ -107,7 +107,7 @@ with the now fewer low risk applicants.
 All code is contained in the Jupyter Notebook files
 [`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb) and
 [`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb). Replicating
-this analysis is therfore accomplished by first cloning the repository
+this analysis is therefore accomplished by first cloning the repository
 and installing dependencies into an isolated `conda` environment using
 ```
 conda env create -f environment.yml
