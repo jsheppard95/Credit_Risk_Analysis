@@ -106,8 +106,8 @@ with the now fewer low risk applicants.
 # Usage
 All code is contained in the Jupyter Notebook files
 [`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb) and
-[`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb). Therefore
-replicating this analysis is accomplished by first cloning the repository
+[`credit_risk_resampling.ipynb`](credit_risk_resampling.ipynb). Replicating
+this analysis is therfore accomplished by first cloning the repository
 and installing dependencies into an isolated `conda` environment using
 ```
 conda env create -f environment.yml
@@ -115,7 +115,7 @@ conda env create -f environment.yml
 One can then open either Jupyter Notebook file and run all cells. In
 `credit_risk_resampling.ipynb`, the classification reports are found at the
 end of each resampling section, as shown for
-[Naive Random Oversampling](Images/oversampling_full_code). Similarly, in
+[Naive Random Oversampling](Images/oversampling_full_code.png). Similarly, in
 `credit_risk_ensemble.ipynb`, the classification reports are displayed after
 training and testing each ensemble learning classification for model, as shown
 for the [Easy Ensemble AdaBoost Classifier](Images/eeac_full_code.png). 
